@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!doctype html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Form Demo</title>
+    </head>
+    <body>
+    <nav>
+        <ul>
+            <li><a href="http://localhost:63342/AFC_F2025/Moy_AFC_F2025/restaurant-site/index.html?_ijt=vamsuq2une3fh03bceau2av1nm&_ij_reload=RELOAD_ON_SAVE">VIsit Home</a></li>
+            <li><a href="http://localhost:63342/AFC_F2025/Moy_AFC_F2025/restaurant-site/menu.html?_ijt=5i1t95a8fra7ofubknvl2gvl43&_ij_reload=RELOAD_ON_SAVE">Visit Menu</a></li>
+            <li><a href="http://localhost:63342/AFC_F2025/Moy_AFC_F2025/restaurant-site/hiring.html?_ijt=vamsuq2une3fh03bceau2av1nm&_ij_reload=RELOAD_ON_SAVE">Visit Hiring</a></li>
+        </ul>
+    </nav>
+
+    </body>
+    </html>
+</head>
+<body>
+<!--- this is the first name entry---->
+<form action="/api/newData"method="">
+    <label for="horse"></label>
+    <p>First Name: <input type="text"
+           name="doggy"
+           placeholder="Please enter First Name"
+           id="horse"
+          minlength="1"
+          maxlength="20"
+    ></p>
+<!--- this is the last name section--->
+    <label>
+        <p>Last Name: <input
+            type="text"
+            name="doggy"
+            placeholder="Please enter your last name"
+            id=""
+            required minlength="1"
+            required maxlength="20"
+        ></p>
+
+
+    </label>
+<!------ this is address1 ----->
+    <label>
+        <p>Address 1: <input
+            type="text"
+            name="doggy"
+            placeholder="Please enter your first address "
+            id=""
+            required
+
+        ></p>
+
+    </label>
+<!------ this is address2 ----->
+    </label>
+    <p>Adress 2: <input
+            type="text"
+            name="doggy"
+            placeholder="Please enter your second address"
+            id="hotdog"></p>
+
+    </label>
+<!----- This is for City and State---->
+    </label>
+    <p>City: <input
+            type="text"
+            name="doggy"
+            placeholder="City"
+            id=""
+            required maxlength="29"
+
+    >
+        State
+            <select id="" name="state">
+                 <option value="Texas">TX</option>
+                <option value="California">CA</option>
+                <option value="New York">NY</option>
+            </select>
+    </p>
+
+<!-- thi is to enter a phone numner -->
+    <label for="yes"></label>
+    <p>Age <input
+            type=Number
+            name="Yes"
+            placeholder=" age"
+            id=""
+            min="21"
+            max="99"
+    ></p>
+
+
+<!-- this is the input for the age -->
+    <label for="yes"></label>
+    <p>Phone Number: <input
+            type= tel
+            name=""
+            placeholder="Format 111-222-3333"
+            required
+    ></p>
+
+<!----- this is the email--->
+    <label for="yes"></label>
+    <p>Email: <input
+            type= email
+            name=""
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            placeholder="email"
+    ></p>
+<!---- this is the password--->
+    <label for="yes"></label>
+    <p>Password: <input
+            type= password
+            name=""
+            placeholder= password
+            required minlength="8"
+            maxlength="12"
+    ></p>
+<!--- this is the radio buttons --->
+    <label for="">
+        <p>Martial Status
+            <input type="radio" name="is"id=""> Yes
+            <input type="radio" name="is"id=""> No
+            <input type="radio" name="is"id=""> Complicated
+        </p>
+
+    </label>
+<!----- this is the color--->
+    <label for="">
+        <p>Favorite Color
+            <input type="radio" name="is"id=""> Blue
+            <input type="radio" name="is"id=""> Green
+            <input type="radio" name="is"id=""> Yellow
+            <input type="radio" name="is"id=""> Red
+            <input type="radio" name="is"id=""> Orange
+        </p>
+
+    </label>
+
+
+        </label>
+<!------text box------>
+<p>Enter other information about yourelf(300 character max): </p>
+    <textarea maxlength="300" rows="4" cols="30"></textarea>
+
+
+<!-- this is the submit and reset button --->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</form>
