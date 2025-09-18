@@ -1,0 +1,10 @@
+When working with node:
+
+1. Create a parent directory
+2. You will ned an index.js name
+3. Run a command => npm init or npm init -y
+4. Install your modules. (aka dependecies)
+ Hey- i will need you at some point
+ 5. USE the modules (import, references, or just use the box)
+  I need you and i am making you avaiable in my app
+6. run the app => npm run dev

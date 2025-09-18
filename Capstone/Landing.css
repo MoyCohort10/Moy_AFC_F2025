@@ -1,0 +1,34 @@
+/*Primary color is white/black = i am going for a very sleek display.*/
+
+.asimovian-regular {
+    font-family: "Asimovian", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/*i choose this background/color because it is very summer like and cheerful*/
+body {
+    background-image: url('https://images.unsplash.com/photo-1612654287485-66f301345ff1?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height : 100vh;
+   ;
+}
+
+h1 {
+    font-family: "Asimovian", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    color: black;
+}
+
+img {
+    display: block;      /* Make image behave like a block */
+    margin-left: auto;   /* Push left margin automatically */
+    margin-right: auto;  /* Push right margin automatically */
+    /* Optional: add max-width for responsiveness */
+    max-width: 100%;
+    height: auto;
+}
