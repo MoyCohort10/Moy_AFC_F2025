@@ -1,0 +1,16 @@
+test("Palidrome",()=>{
+        expect(isPalidrome(12345).toBe(false))
+    })
+
+    test("Palidrome",()=>{
+        expect(isPalidrome(true).toBe(false))
+    })
+
+    test("Palidrome",()=>{
+        expect(isPalidrome(['a','b','c']).toBe(false))
+    })
+
+
+
+const object = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    return object === object.split('').reverse('').join('');
